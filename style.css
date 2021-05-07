@@ -1,0 +1,38 @@
+:root{
+    --bg: #202035;
+    --bg-secondary:  #0C4160; /* Component bacground*/
+    --bg-third: #454564; /* Form */
+    --bg-fourth: #0f0f1b; 
+
+    --color-primary: #738FA7;
+    --color-secondary: #C3CEDA;
+    --color-link: #786CD5;
+    --color-hr: #141428;
+    --color-active: #242486;
+
+}
+body{
+    background-color: var(--bg);
+    
+}
+.bg-secondary{
+    background-color: var(--bg-secondary) !important;
+}
+.bg-third{
+    background-color: var(--bg-third);
+}
+.bg-fourth{
+    background-color: var(--bg-fourth);
+}
+.color-secondary{
+    color: var(--color-secondary) !important;
+}
+.color-link{
+    color: var(--color-link) ;
+}
+.color-active{
+    color: var(--color-active) ;
+}
+.color-primary{
+    color: var(--color-primary) ;
+}

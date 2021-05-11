@@ -81,8 +81,8 @@
     <main>
       <section class="py-5 text-center container-lg">
         <div class="row py-lg-5">
-          <div class="col-md-6 ">
-            <img src="photo.png" alt="profile"/>
+          <div class="col-md-6">
+            <img src="photo.png" alt="profile" />
           </div>
           <div class="col-md-6 mx-auto">
             <h1 class="color-primary">About</h1>
@@ -90,8 +90,8 @@
               I graduated from computer engineering at Bilecik Seyh Edebali
               University. I started project development with Laravel and
               continued with Vue and React to develop the frontend of my
-              projects. I will continue to challenge myself to research, learn
-              and use new technologies in projects.
+              projects. I continue to challenge myself to research, learn and
+              use new technologies in projects.
             </p>
             <p>
               <a
@@ -242,7 +242,7 @@
               <div class="card shadow-sm">
                 <img src="img/vue-envanter.PNG" alt="" srcset="" height="225" />
                 <div class="card-body">
-                  <p class="card-text">Vue Inventory </p>
+                  <p class="card-text">Vue Inventory</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -427,6 +427,7 @@
             >React JS
           </h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- React Column-1 Start -->
             <div class="col">
               <div class="card shadow-sm">
                 <img
@@ -514,10 +515,13 @@
                 </div>
               </div>
             </div>
+            <!-- React Column-1 End -->
+
+            <!-- React Column-2 Start -->
             <div class="col">
               <div class="card shadow-sm">
                 <img src="img/coinflipper.PNG" alt="" srcset="" height="225" />
-                <div class="card-body" style="border-top: 1px solid;">
+                <div class="card-body" style="border-top: 1px solid">
                   <p class="card-text">React Coin Flip</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
@@ -571,12 +575,15 @@
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
-                          <div class="modal-body"><ul>
-                            <li>Built using React Hooks.</li>
-                            <li>
-                              Click the button and flip the money. Coin flip information is located under the button.
-                            </li>
-                          </ul></div>
+                          <div class="modal-body">
+                            <ul>
+                              <li>Built using React Hooks.</li>
+                              <li>
+                                Click the button and flip the money. Coin flip
+                                information is located under the button.
+                              </li>
+                            </ul>
+                          </div>
                           <div class="modal-footer">
                             <button
                               type="button"
@@ -593,6 +600,98 @@
                 </div>
               </div>
             </div>
+            <!-- React Column-2 End -->
+
+            <!-- React Column-3 Start -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="img/react-weather.PNG"
+                  alt=""
+                  srcset=""
+                  height="225"
+                />
+                <div class="card-body" style="border-top: 1px solid">
+                  <p class="card-text">React Weather</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="">
+                      <a
+                        href="https://condescending-hypatia-f560fa.netlify.app/"
+                        class="btn btn-sm btn-danger"
+                        target="_blank"
+                        >View</a
+                      >
+                      <a
+                        href="https://github.com/hibadem/react-weather"
+                        type="button"
+                        class="btn btn-sm btn-success"
+                        target="_blank"
+                        >Code</a
+                      >
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-primary"
+                      data-toggle="modal"
+                      data-target="#reactWeather"
+                    >
+                      Details
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="reactWeather"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="reactWeatherLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="reactWeatherLabel">
+                              Details
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <ul>
+                              <li>React hook is used.</li>
+                              <li>
+                                The latitude and longitude values ​​of the user
+                                were obtained with the "use-position" hook.
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-danger"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- React Column-3 End -->
+            <!-- React Column-4 Start -->
             <div class="col">
               <div class="card shadow-sm">
                 <img src="img/react-cart.PNG" alt="" srcset="" height="225" />
@@ -681,8 +780,10 @@
                 </div>
               </div>
             </div>
+            <!-- React Column-4 End -->
           </div>
           <!-- React End -->
+
           <!-- Laravel Start -->
           <h2 class="text-center mt-4">
             <span
@@ -694,7 +795,6 @@
             >Laravel
           </h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            
             <div class="col">
               <div class="card shadow-sm">
                 <img src="img/photofull.png" alt="" srcset="" height="225" />
